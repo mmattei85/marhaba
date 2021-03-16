@@ -1,0 +1,25 @@
+{
+  "name": "entrega-final",
+  "version": "1.0.0",
+  "description": "entrega final coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss sass/scss/pruebafinal.scss sass/css/pruebafinal.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mamc1985",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmattei85/marhaba.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmattei85/marhaba/issues"
+  },
+  "homepage": "https://github.com/mmattei85/marhaba#readme"
+}
